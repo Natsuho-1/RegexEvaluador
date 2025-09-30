@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RegexEvaluador")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c86fd342d0f69360975872d0eae3be8747b88c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RegexEvaluador")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RegexEvaluador")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

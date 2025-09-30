@@ -12,3 +12,4 @@ C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\refi
 C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.pdb
 C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.genruntimeconfig.cache
 C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\ref\RegexEvaluador.dll
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.sourcelink.json

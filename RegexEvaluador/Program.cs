@@ -33,7 +33,9 @@ do
     Console.Write("Transición: ");
     string entrada = Console.ReadLine();
     quintuplo.Agregartrancicion(entrada);
-    Console.WriteLine("Escribe 'fin' para terminar si no deja en blanco.");
+    Console.WriteLine("Escribe 'fin' para terminar, presiona Enter para agregar otra transicion.");
+    Console.WriteLine("----------------------------------------------------");
+    Console.Write("Escribe fin para salir: ");
     condicion = Console.ReadLine();
 } while (condicion == "");
 
@@ -43,7 +45,10 @@ Console.WriteLine("Digita lo que quieres hacer: ");
 Console.WriteLine("----------------------------------------------------");
 Console.WriteLine("1. Ver Quintuplo");
 Console.WriteLine("2. Generar Expresion");
+Console.WriteLine("----------------------------------------------------");
+Console.Write("Digitar opcion: ");
 opcion = int.Parse(Console.ReadLine());
+Console.WriteLine("----------------------------------------------------");
 switch (opcion)
 {
     case 1:
