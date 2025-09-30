@@ -1,0 +1,14 @@
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\bin\Debug\net8.0\RegexEvaluador.exe
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\bin\Debug\net8.0\RegexEvaluador.deps.json
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\bin\Debug\net8.0\RegexEvaluador.runtimeconfig.json
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\bin\Debug\net8.0\RegexEvaluador.dll
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\bin\Debug\net8.0\RegexEvaluador.pdb
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.AssemblyInfoInputs.cache
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.AssemblyInfo.cs
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.csproj.CoreCompileInputs.cache
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.dll
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\refint\RegexEvaluador.dll
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.pdb
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\RegexEvaluador.genruntimeconfig.cache
+C:\Users\Santos\source\repos\RegexEvaluador\RegexEvaluador\obj\Debug\net8.0\ref\RegexEvaluador.dll
