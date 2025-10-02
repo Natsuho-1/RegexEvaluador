@@ -1,0 +1,7 @@
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\bin\Debug\Prueba de automata.exe.config
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\bin\Debug\Prueba de automata.exe
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\bin\Debug\Prueba de automata.pdb
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\obj\Debug\Prueba de automata.csproj.AssemblyReference.cache
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\obj\Debug\Prueba de automata.csproj.CoreCompileInputs.cache
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\obj\Debug\Prueba de automata.exe
+C:\Users\Gerson\source\repos\Prueba de automata\Prueba de automata\obj\Debug\Prueba de automata.pdb
