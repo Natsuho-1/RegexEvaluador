@@ -88,8 +88,9 @@ namespace Prueba_de_automata
             }
         }
 
-        public void EstableceTrancisiones()
+        public List<string> EstableceTrancisiones()
         {
+            List<string> errores = new List<string>();
             try
             {
                 foreach (var estado in estados.Values)
@@ -119,7 +120,7 @@ namespace Prueba_de_automata
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"El estado '{destinoTrim}' no existe. Se omitirá.");
+                                    errores.Add($"El estado '{destinoTrim}' no existe. Se omitirá.");
                                 }
                             }
                             transiciones[simbolo] = estadosDestino;
@@ -138,7 +139,7 @@ namespace Prueba_de_automata
             {
 
             }
-
+            return errores;
         }
 
         // Ejecuta el recorrido desde el estado inicial
@@ -166,6 +167,11 @@ namespace Prueba_de_automata
                 return 'n'; //palabra de entrada no cumplió la e.r
             }
         }
+        public List<Estado> obtenerEstados()
+        {
+            return estados.Values.ToList();
+        }
+
 
         public void nuevoQuintuplo()
         {

@@ -3,16 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|c:\\users\\santos\\source\\repos\\regexevaluador\\regexevaluador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|solutionrelative:regexevaluador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|c:\\users\\santos\\source\\repos\\regexevaluador\\regexevaluador\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|solutionrelative:regexevaluador\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Prueba de automata\\Prueba de automata\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|c:\\users\\santos\\source\\repos\\regexevaluador\\regexevaluador\\expresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452677B9-0AE6-4EAB-ACE6-973275FF702F}|RegexEvaluador\\RegexEvaluador.csproj|solutionrelative:regexevaluador\\expresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RegexEvaluador\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\Expresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RegexEvaluador\\Expresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RegexEvaluador\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +37,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAANYEAAAAAAAAAAAQwOoEAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-06T19:38:52.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Program.cs",
+              "RelativeDocumentMoniker": "Prueba de automata\\Prueba de automata\\Program.cs",
+              "ToolTip": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Program.cs",
+              "RelativeToolTip": "Prueba de automata\\Prueba de automata\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:37:29.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Expresion.cs",
               "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\Expresion.cs",
               "RelativeDocumentMoniker": "RegexEvaluador\\Expresion.cs",
@@ -38,12 +71,11 @@
               "RelativeToolTip": "RegexEvaluador\\Expresion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T21:08:52.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T21:08:52.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "quintuplo.cs",
               "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\quintuplo.cs",
               "RelativeDocumentMoniker": "RegexEvaluador\\quintuplo.cs",
@@ -51,12 +83,11 @@
               "RelativeToolTip": "RegexEvaluador\\quintuplo.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T19:49:05.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T19:49:05.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\RegexEvaluador\\Program.cs",
               "RelativeDocumentMoniker": "RegexEvaluador\\Program.cs",

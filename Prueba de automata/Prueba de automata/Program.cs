@@ -62,7 +62,21 @@ namespace Prueba_de_automata
                 Console.WriteLine("Para transiciones vacías (ß), use 'ß' como símbolo(alt+225)");
                 Console.WriteLine("Para múltiples estados destino (AFN), sepárelos por '|' (ej: q0|q1)");
                 Console.WriteLine("Deje vacío si no hay transición para ese símbolo");
-                principal.EstableceTrancisiones();
+                List<string> errores = principal.EstableceTrancisiones();
+
+                if (errores.Count > 0)
+                {
+                    Console.WriteLine("\n⚠️ Errores encontrados:");
+                    foreach (string error in errores)
+                    {
+                        Console.WriteLine($"- {error}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("\n✅ Transiciones definidas correctamente.");
+                }
+
 
                 bool otraPalabra = true;
                 do
@@ -73,6 +87,14 @@ namespace Prueba_de_automata
                     // Recorrido desde el estado inicial
                     Console.WriteLine("\n=== Resultado del recorrido ===");
                     char resultado = principal.EmpezarRecorrido(cadena);
+                    foreach (var estado in principal.obtenerEstados())
+                    {
+                        foreach (string traza in estado.Trazas)
+                        {
+                            Console.WriteLine(traza);
+                        }
+                    }
+
                     switch (resultado)
                     {
                         case 'e':
@@ -107,9 +129,7 @@ namespace Prueba_de_automata
                     }
 
                 } while (otraPalabra);
-
-       
-                  
+            
 
             }
             while (repetir);

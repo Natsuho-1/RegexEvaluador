@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\prueba de automata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|solutionrelative:prueba de automata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\prueba de automata\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|solutionrelative:prueba de automata\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\prueba de automata\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|solutionrelative:prueba de automata\\quintuplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|c:\\users\\santos\\source\\repos\\regexevaluador\\prueba de automata\\prueba de automata\\claseprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1664696-D530-4724-BBC8-E56E0BB9BE4A}|Prueba de automata\\Prueba de automata.csproj|solutionrelative:prueba de automata\\claseprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClasePrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\ClasePrincipal.cs",
+              "RelativeDocumentMoniker": "Prueba de automata\\ClasePrincipal.cs",
+              "ToolTip": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\ClasePrincipal.cs",
+              "RelativeToolTip": "Prueba de automata\\ClasePrincipal.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:44:18.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Program.cs",
+              "RelativeDocumentMoniker": "Prueba de automata\\Program.cs",
+              "ToolTip": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Program.cs",
+              "RelativeToolTip": "Prueba de automata\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:44:16.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quintuplo.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Quintuplo.cs",
+              "RelativeDocumentMoniker": "Prueba de automata\\Quintuplo.cs",
+              "ToolTip": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\Quintuplo.cs",
+              "RelativeToolTip": "Prueba de automata\\Quintuplo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:44:15.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "estado.cs",
+              "DocumentMoniker": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\estado.cs",
+              "RelativeDocumentMoniker": "Prueba de automata\\estado.cs",
+              "ToolTip": "C:\\Users\\Santos\\source\\repos\\RegexEvaluador\\Prueba de automata\\Prueba de automata\\estado.cs",
+              "RelativeToolTip": "Prueba de automata\\estado.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAHsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:42:36.242Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
