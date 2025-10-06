@@ -10,92 +10,109 @@ namespace Prueba_de_automata
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== PRUEBA DE AFN CON TRANSICIONES VACÍAS ===\n");
-
-            // Ingreso de estados
-            Console.Write("Ingrese los nombres de los estados separados por coma (ej: q0,q1,q2): ");
-            string[] nombresEstados = Console.ReadLine().Split(',');
-
-            // Crear diccionario de estados
-            Dictionary<string, Estado> estados = new Dictionary<string, Estado>();
-
-            // Ingreso del estado inicial
-            Console.Write("Ingrese el nombre del estado inicial: ");
-            string nombreInicial = Console.ReadLine().Trim();
-
-            // Ingreso de estados finales
-            Console.Write("Ingrese los nombres de los estados finales separados por coma (ej: q2,q3): ");
-            string[] nombresFinales = Console.ReadLine().Split(',');
-
-            // Crear los estados
-            foreach (string nombre in nombresEstados)
+            bool repetir = true;
+            do
             {
-                bool esFinal = Array.Exists(nombresFinales, f => f.Trim() == nombre.Trim());
-                estados[nombre.Trim()] = new Estado(esFinal, nombre.Trim());
-            }
+                ClasePrincipal principal = new ClasePrincipal();
+                Console.WriteLine("=== PRUEBA DE AFN CON TRANSICIONES VACÍAS ===\n");
 
-            // Ingreso del alfabeto (incluyendo ε)
-            Console.Write("Ingrese los símbolos del alfabeto separados por coma (ej: 0,1): ");
-            char[] alfabeto = Array.ConvertAll(Console.ReadLine().Split(','), s => s.Trim()[0]);
-
-            // Definición de la función de transición δ (incluyendo transiciones ε)
-            Console.WriteLine("\n--- Definición de la función de transición δ(q, símbolo) = q' ---");
-            Console.WriteLine("Para transiciones vacías (ε), use 'ε' como símbolo");
-            Console.WriteLine("Para múltiples estados destino (AFN), sepárelos por '|' (ej: q0|q1)");
-            Console.WriteLine("Deje vacío si no hay transición para ese símbolo");
-
-            foreach (var estado in estados.Values)
-            {
-                Dictionary<char, List<Estado>> transiciones = new Dictionary<char, List<Estado>>();
-
-                // Agregar ε como símbolo posible
-                List<char> simbolos = new List<char>(alfabeto);
-                simbolos.Add('ε');
-
-                foreach (char simbolo in simbolos)
+                // Ingreso de estados
+                bool estadoOK = false;
+                do
                 {
-                    Console.Write($"δ({estado.Name}, {simbolo}) = ");
-                    string destinoInput = Console.ReadLine().Trim();
-
-                    if (!string.IsNullOrEmpty(destinoInput))
-                    {
-                        string[] destinos = destinoInput.Split('|');
-                        List<Estado> estadosDestino = new List<Estado>();
-
-                        foreach (string destino in destinos)
-                        {
-                            string destinoTrim = destino.Trim();
-                            if (estados.ContainsKey(destinoTrim))
-                            {
-                                estadosDestino.Add(estados[destinoTrim]);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"El estado '{destinoTrim}' no existe. Se omitirá.");
-                            }
-                        }
-                        transiciones[simbolo] = estadosDestino;
-                    }
-                    else
-                    {
-                        // No hay transición para este símbolo
-                        transiciones[simbolo] = new List<Estado>();
-                    }
+                    Console.Write("Ingrese los nombres de los estados separados por coma (ej: q0,q1,q2): ");
+                    string est = Console.ReadLine();
+                    estadoOK = principal.CapturarEstados(est);
                 }
-                estado.setTransiciones(transiciones);
+                while (!estadoOK);
+
+                // Ingreso del estado inicial
+                bool estadoinicalOK = false;
+                do
+                {
+                    Console.Write("Ingrese el nombre del estado inicial: ");
+                    string est = Console.ReadLine();
+                    estadoinicalOK = principal.CapturarEstadoInicial(est);
+                }
+                while (!estadoinicalOK);
+
+                // Ingreso de estados finales
+                bool estadoFinalOK = false;
+                do
+                {
+                    Console.Write("Ingrese los nombres de los estados finales separados por coma (ej: q2,q3): ");
+                    string est = Console.ReadLine();
+                    estadoFinalOK = principal.CapturarEstadosFinales(est);
+                }
+                while (!estadoFinalOK);
+
+
+                // Ingreso del alfabeto 
+                bool alfabetoOK = false;
+                do
+                {
+                    Console.Write("Ingrese los símbolos del alfabeto separados por coma (ej: 0,1): ");
+                    string est = Console.ReadLine();
+                    alfabetoOK = principal.CapturarAlfabeto(est);
+                }
+                while (!alfabetoOK);
+
+                // Definición de la función de transición δ (incluyendo transiciones ε)
+                Console.WriteLine("\n--- Definición de la función de transición δ(q, símbolo) = q' ---");
+                Console.WriteLine("Para transiciones vacías (ß), use 'ß' como símbolo(alt+225)");
+                Console.WriteLine("Para múltiples estados destino (AFN), sepárelos por '|' (ej: q0|q1)");
+                Console.WriteLine("Deje vacío si no hay transición para ese símbolo");
+                principal.EstableceTrancisiones();
+
+                bool otraPalabra = true;
+                do
+                {
+                    // Ingreso de la cadena a evaluar
+                    Console.Write("\nIngrese la cadena a evaluar: ");
+                    string cadena = Console.ReadLine().Trim();
+                    // Recorrido desde el estado inicial
+                    Console.WriteLine("\n=== Resultado del recorrido ===");
+                    char resultado = principal.EmpezarRecorrido(cadena);
+                    switch (resultado)
+                    {
+                        case 'e':
+                            Console.WriteLine("Error, debido a que aún no se ha definido un quíntuplo completo de un AFN paraevaluar la e.r");
+                            break;
+                        case 'p':
+                            Console.WriteLine("la palabra de entrada contiene símbolos que no pertenecen al alfabeto usadopor el Autómata");
+                            break;
+                        case 's':
+                            Console.WriteLine("palabra de entrada ha satisfecho la e.r definido por el quíntuplo");
+                            break;
+                        case 'n':
+                            Console.WriteLine("palabra de entrada no cumplió la e.r");
+                            break;
+                    }
+                    Console.WriteLine("Probar otra palabra? (s/n)");
+                    string opcion = Console.ReadLine();
+                    if (opcion == "n")
+                    {
+                        Console.WriteLine("Probar otro quintuplo? (s/n)");
+                        string opcion2 = Console.ReadLine();
+                        if (opcion2 == "s")
+                        {
+                            principal.nuevoQuintuplo();
+                        }
+                        else
+                        {
+                            repetir = false;
+                        }
+                        otraPalabra =false;
+
+                    }
+
+                } while (otraPalabra);
+
+       
+                  
+
             }
-
-            // Ingreso de la cadena a evaluar
-            Console.Write("\nIngrese la cadena a evaluar: ");
-            string cadena = Console.ReadLine().Trim();
-
-            // Recorrido desde el estado inicial
-            Console.WriteLine("\n=== Resultado del recorrido ===");
-            Estado estadoInicial = estados[nombreInicial];
-
-            bool aceptada = estadoInicial.evaluarAFN(cadena, estados);
-
-            Console.WriteLine($"\nResultado: {(aceptada ? "Cadena aceptada" : "Cadena rechazada")}");
+            while (repetir);
 
             Console.ReadKey();
         }

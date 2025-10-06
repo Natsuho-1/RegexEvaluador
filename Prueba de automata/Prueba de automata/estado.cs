@@ -38,9 +38,9 @@ namespace Prueba_de_automata
             {
                 Estado actual = pila.Pop();
 
-                if (actual.Transiciones.ContainsKey('ε'))
+                if (actual.Transiciones.ContainsKey('ß'))
                 {
-                    foreach (Estado siguiente in actual.Transiciones['ε'])
+                    foreach (Estado siguiente in actual.Transiciones['ß'])
                     {
                         if (!clausura.Contains(siguiente))
                         {
