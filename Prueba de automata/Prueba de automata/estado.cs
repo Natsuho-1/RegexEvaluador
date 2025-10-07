@@ -27,7 +27,7 @@ namespace Prueba_de_automata
             this.Transiciones = transiciones;
         }
 
-        // Función para obtener la ε-clausura de un estado
+        // Función para obtener la cerr-ε(q) de un estado
         private HashSet<Estado> obtenerEpsilonClausura()
         {
             HashSet<Estado> clausura = new HashSet<Estado>();
@@ -56,7 +56,7 @@ namespace Prueba_de_automata
             return clausura;
         }
 
-        // Función para obtener la ε-clausura de un conjunto de estados
+        // Función para obtener la CERR-ε de un conjunto de estados
         public static HashSet<Estado> obtenerEpsilonClausuraConjunto(HashSet<Estado> estados)
         {
             HashSet<Estado> clausura = new HashSet<Estado>();
@@ -70,7 +70,7 @@ namespace Prueba_de_automata
         }
 
         // Función principal para evaluar AFN
-        public bool evaluarAFN(string cadena, Dictionary<string, Estado> todosEstados)
+        public bool evaluarAFN(string cadena)
         {
             // Estado actual como conjunto de estados (incluyendo ε-clausura)
             HashSet<Estado> estadosActuales = obtenerEpsilonClausuraConjunto(new HashSet<Estado> { this });

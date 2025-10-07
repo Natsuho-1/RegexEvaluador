@@ -103,16 +103,20 @@ namespace Prueba_de_automata
 
                     foreach (char simbolo in simbolos)
                     {
+                        //Va pidiendo las tranciones segun los estados y alfabeto ingresados
                         Console.Write($"δ({estado.Name}, {simbolo}) = ");
                         string destinoInput = Console.ReadLine().Trim();
 
+                        //Si las trancniones ingresadas no estan vacias
                         if (!string.IsNullOrEmpty(destinoInput))
                         {
                             string[] destinos = destinoInput.Split('|');
                             List<Estado> estadosDestino = new List<Estado>();
 
+                            //por cas estado destino ingresado
                             foreach (string destino in destinos)
                             {
+                                //si el estado ingreso existe en la lista de estados ingresada anteriormente
                                 string destinoTrim = destino.Trim();
                                 if (estados.ContainsKey(destinoTrim))
                                 {
@@ -131,7 +135,7 @@ namespace Prueba_de_automata
                             transiciones[simbolo] = new List<Estado>();
                         }
                     }
-                    estado.setTransiciones(transiciones);
+                    estado.setTransiciones(transiciones);//ingresa las tranciones correspondiente al estado
                 }
                 quintuploOK = true;
             }
@@ -158,7 +162,7 @@ namespace Prueba_de_automata
             {
                 return 'e';
             }
-            else if (estadoInicial.evaluarAFN(palabra, estados))
+            else if (estadoInicial.evaluarAFN(palabra))
             {
                 return 's';//palabra de entrada ha satisfecho la e.r definido por el quíntuplo
             }
